@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <button>outside form</button>
+    <h1>Forms</h1>
+    <!-- http://127.0.0.1:5500/mywebsite?username=KISLAYKUMAR&password=45686&color=%23b82828&num=76 -->
+    <form action="/mywebsite">
+  <button type="button">Do not submit</button>
+        <p>
+        <label for="username">Enter username</label>  
+        <input type="=text" placeholder="username" id="username" name="username">
+    </p>
+    <p>
+        <label for="password">Enter password</label>
+        <input type="password" placeholder="password" id="password" name="password">
+    </p>
+    <label for="color">pick a color</label>
+        <input type="color" placeholder="pick a color" id="color" name="color">
+    </p>
+    <p>
+        <label for="number">Ener a number</label>
+        <input type="number" placeholder="Enter a number" id="number" name="num">
+    </p>
+    <button>submit!!</button>
+    <input type="submit" value="click me">
+    </form>
+    <form action="https://www.reddit.com/search/">
+        <input type="text" name="q">
+        <button>Reddit search</button>
+    </form>
+</form>
+
+<h2>Hacking raddit google and youtube search</h2>
+<form action="https://www.google.com/search?">
+    <input type="text" name="q">
+    <button>Google search</button>
+</form>
+<form action="https://www.youtube.com/results?">
+    <input type="text" name="search_query">
+    <button>Youtube search</button>
+</form>
+<form action="/myfirstpage">
+<input type="checkbox" name="tos" id="tos" checked>
+<label for="tos">Agree terms and conditions</label>
+
+<h2>Radio</h2>
+
+<p>
+    <label for="orange">orange</label>
+    <input type="radio" name="fruit" id="orange" value="orange">
+    <label for="apple">apple</label>
+    <input type="radio" name="fruit" id="apple">
+    <label for="papaya">papaya</label>
+    <input type="radio" name="fruit" id="papaya">
+    
+</p>
+<h2>Select</h2>
+<p>
+    <label for="fruittobuy">Select fruit you want to buy</label>
+    <select name="fruit" id="fruittobuy">
+        <option value="ora" selected>Orange</option>
+        <option value="Gua">Guava</option>
+        <option value="app">apple</option>
+        <option value="pap">papaya</option>
+    </select>
+</p>
+<h2>Range</h2>
+<p>
+    <label for="vol"></label>
+    <input type="range" name="volume" id="vol" min="10" max="100">
+</p>
+   <h2>text area</h2>
+  <p>
+      <label for="request">Anything you want to write?</label>
+      <textarea name="textarea" id="request" cols="50" rows="20" placeholder="write somethin...."></textarea>
+  </p>
+<button>Submit</button>
+    
+</form>
+<h2>HTML5 validations</h2>
+<form action="/validations">
+    <label for="username">Enter unsername</label>
+    <input type="text" name="username" id="username" required minlength="5" maxlength="20">
+   
+    <p>
+        <label for="password">Enter password</label>
+        <input type="password" id="password"required>
+    </p>
+    <p>
+        <p>
+            <label for="email">Enter email</label>
+            <input type="email" id="email"required>
+        </p>
+    </p>
+    <label for="url">Enter valid url</label>
+    <input type="url"id=url>
+    <button>submit</button>
+</form>
+        
+
+</body>
+</html>

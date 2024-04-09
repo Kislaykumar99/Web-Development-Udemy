@@ -1,0 +1,26 @@
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: magenta;
+    transition: 2s 1s;
+}
+.circle:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}
+section div{
+    height: 100px;
+    width: 100px;
+    background-color:turquoise;
+    margin 20px 0;
+    transition: margin-left ease-in 3s ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+section:hover{
+    margin-left: 50px;
+}
+ 
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}

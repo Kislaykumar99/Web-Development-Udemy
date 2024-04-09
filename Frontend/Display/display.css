@@ -1,0 +1,15 @@
+h1{
+    background-color: greenyellow;
+    border: 1px solid black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 10px;
+    
+}
+span{
+    background-color:purple;
+    border: 1px solid black;
+    display: block;
+}

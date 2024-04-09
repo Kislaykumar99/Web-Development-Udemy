@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+</head>
+<body>
+    <!-- conditionals in ejs -->
+    <h1> Random Number: <%= num %></h1>
+    <% if(num % 2===0) { %>
+        <h1> The random number is even!</h1>
+
+    <% } else {%>
+
+        
+
+<h1>The random number is odd!</h1>
+    <% } %>
+
+    <h3>The number is: (another way) <%= num%2===0 ? 'Even' : 'Odd' %></h3>
+    
+</body>
+</html>
